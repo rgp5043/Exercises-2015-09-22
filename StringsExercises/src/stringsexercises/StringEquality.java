@@ -12,9 +12,9 @@ public class StringEquality {
     System.out.println("Running Strings02");
 
     String name1 = "Ra";
-    String name2 = new String("Ra");
+    String name2 = "Ra";
 
-    if (name1 == name2) {
+    if (name1.equals(name2)) {
       System.out.println("they are equal");
     } else {
       System.out.println("they are not equal");
